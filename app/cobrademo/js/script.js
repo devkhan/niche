@@ -5,7 +5,7 @@
 var cobraModel, mapData = {};
 
 // Everything should be done after fetching BiGG model via a GET request.
-$.getJSON('E coli core.json', function(data) {
+$.getJSON('../../data/E coli core.json', function(data) {
 
     // Data(CoBRA Model) recieved from URL.
     cobraModel = data;
