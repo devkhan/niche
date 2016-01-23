@@ -306,3 +306,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+
+
+# Custom ignore and unignore files/directories.
+
+!app/*/packages/*
